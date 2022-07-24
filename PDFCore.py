@@ -4315,7 +4315,7 @@ class PDFBody :
                                 self.setObject(compressedId, compressedObject, offset)
                             del(compressedObjectsDict)
         for id in self.referencedJSObjects:
-            if id not in self.containingJS:
+            if id not in self.containingJS and id in self.objects.keys():
                 object = self.objects[id].getObject()
                 if object == None:
                     errorMessage = 'Object is None'
@@ -6932,6 +6932,7 @@ class PDFParser :
             self.readUntilEndOfLine(fileContent)
             self.fileParts.append(fileContent[:self.charCounter])
             fileContent = fileContent[self.charCounter:]
+
             self.charCounter = 0
         else:
             if self.fileParts == []:
@@ -7200,6 +7201,7 @@ class PDFParser :
             ret,genNum = self.readUntilNotRegularChar(rawIndirectObject)
             pdfIndirectObject.setGenerationNumber(int(genNum))
             ret = self.readSymbol(rawIndirectObject, 'obj')
+            
             if ret[0] == -1:
                 return ret
             rawObject = rawIndirectObject[self.charCounter:]

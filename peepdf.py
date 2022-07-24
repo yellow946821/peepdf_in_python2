@@ -45,11 +45,14 @@ VT_KEY = 'fc90df3f5ac749a94a94cb8bf87e05a681a2eb001aef34b6a0084b8c22c97a64'
 try:
     import PyV8
     JS_MODULE = True
+    print 'PyV8~'
 except:
     JS_MODULE = False
+    print 'PyV8QQ~'
 try:
     import pylibemu
     EMU_MODULE = True
+    print 'pylibemu~'
 except:
     EMU_MODULE = False
 try:
@@ -477,7 +480,7 @@ try:
                 message += ' to ' + newVersion
             print message
 
-    else:
+    else: ##no update
         if len(args) == 1:
             fileName = args[0]
             if not os.path.exists(fileName):

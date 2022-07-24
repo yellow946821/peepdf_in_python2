@@ -1,0 +1,110 @@
+Traceback (most recent call last):
+  File "/home/lai/Desktop/peepdf/JSAnalysis.py", line 82, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/lai/Desktop/peepdf/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/lai/Desktop/peepdf/jsbeautifier/__init__.py", line 214, in beautify
+    token_text, token_type = self.get_next_token()
+  File "/home/lai/Desktop/peepdf/jsbeautifier/__init__.py", line 480, in get_next_token
+    if self.input[parser_pos] == '*': # peek /* .. */ comment
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/home/lai/Desktop/peepdf/JSAnalysis.py", line 82, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/lai/Desktop/peepdf/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/lai/Desktop/peepdf/jsbeautifier/__init__.py", line 214, in beautify
+    token_text, token_type = self.get_next_token()
+  File "/home/lai/Desktop/peepdf/jsbeautifier/__init__.py", line 480, in get_next_token
+    if self.input[parser_pos] == '*': # peek /* .. */ comment
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/home/lai/Desktop/peepdf/JSAnalysis.py", line 82, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/lai/Desktop/peepdf/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/lai/Desktop/peepdf/jsbeautifier/__init__.py", line 214, in beautify
+    token_text, token_type = self.get_next_token()
+  File "/home/lai/Desktop/peepdf/jsbeautifier/__init__.py", line 480, in get_next_token
+    if self.input[parser_pos] == '*': # peek /* .. */ comment
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/home/lai/Desktop/peepdf/JSAnalysis.py", line 82, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/lai/Desktop/peepdf/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/lai/Desktop/peepdf/jsbeautifier/__init__.py", line 214, in beautify
+    token_text, token_type = self.get_next_token()
+  File "/home/lai/Desktop/peepdf/jsbeautifier/__init__.py", line 480, in get_next_token
+    if self.input[parser_pos] == '*': # peek /* .. */ comment
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/home/wasn/wei/peepdf/JSAnalysis.py", line 82, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 214, in beautify
+    token_text, token_type = self.get_next_token()
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 480, in get_next_token
+    if self.input[parser_pos] == '*': # peek /* .. */ comment
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/home/wasn/wei/peepdf/JSAnalysis.py", line 82, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 214, in beautify
+    token_text, token_type = self.get_next_token()
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 480, in get_next_token
+    if self.input[parser_pos] == '*': # peek /* .. */ comment
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/home/wasn/wei/peepdf/JSAnalysis.py", line 82, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 214, in beautify
+    token_text, token_type = self.get_next_token()
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 480, in get_next_token
+    if self.input[parser_pos] == '*': # peek /* .. */ comment
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/home/wasn/wei/peepdf/JSAnalysis.py", line 82, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 214, in beautify
+    token_text, token_type = self.get_next_token()
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 480, in get_next_token
+    if self.input[parser_pos] == '*': # peek /* .. */ comment
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/home/wasn/wei/peepdf/JSAnalysis.py", line 82, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 214, in beautify
+    token_text, token_type = self.get_next_token()
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 480, in get_next_token
+    if self.input[parser_pos] == '*': # peek /* .. */ comment
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/home/wasn/wei/peepdf/JSAnalysis.py", line 82, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 214, in beautify
+    token_text, token_type = self.get_next_token()
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 480, in get_next_token
+    if self.input[parser_pos] == '*': # peek /* .. */ comment
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/home/wasn/wei/peepdf/JSAnalysis.py", line 82, in analyseJS
+    code = jsbeautifier.beautify(code)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 93, in beautify
+    return b.beautify(string, opts)
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 214, in beautify
+    token_text, token_type = self.get_next_token()
+  File "/home/wasn/wei/peepdf/jsbeautifier/__init__.py", line 480, in get_next_token
+    if self.input[parser_pos] == '*': # peek /* .. */ comment
+IndexError: string index out of range
